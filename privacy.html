@@ -152,13 +152,28 @@
     <p>Photos/videos are NOT stored unless you explicitly choose to save them. Camera is only active when you're using the scanning feature.</p>
     
     <h3>3. Information from Third-Party Services</h3>
+    
     <p><strong>Firebase (Google):</strong></p>
-    <p>We use Firebase for:</p>
+    <p>We use Firebase services to support core app functionality and analytics.</p>
     <ul>
         <li>User authentication (Sign in with Apple, Email/Password)</li>
         <li>Cloud data storage (your routines and products)</li>
-        <li>Analytics (app performance and crashes)</li>
+        <li>Firebase Analytics to understand app usage, performance, and crashes</li>
     </ul>
+    <p>Learn more about Firebase’s privacy practices here:
+        <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a>
+    </p>
+    
+    <p><strong>RevenueCat:</strong></p>
+    <p>We use RevenueCat to process subscription purchases and manage in-app subscriptions.</p>
+    <ul>
+        <li>Subscription status and entitlement management</li>
+        <li>Purchase validation and receipt handling</li>
+        <li>No direct access to your payment method details</li>
+    </ul>
+    <p>Learn more about RevenueCat’s privacy practices here:
+        <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a>
+    </p>
     
     <p><strong>Barcode APIs:</strong></p>
     <ul>
@@ -169,8 +184,8 @@
     <h2>How We Use Your Information</h2>
     <p>We use the information we collect to:</p>
     <ul>
-        <li><strong>Provide and maintain the App:</strong> Store your routines and products, sync data across devices, enable scanning</li>
-        <li><strong>Improve the App:</strong> Analyze usage, fix bugs, develop new features</li>
+        <li><strong>Provide and maintain the App:</strong> Store your routines and products, sync data across devices, enable scanning, and manage subscriptions</li>
+        <li><strong>Improve the App:</strong> Analyze usage through Firebase Analytics, fix bugs, develop new features</li>
         <li><strong>Communicate with you:</strong> Send important updates, respond to support requests, send notifications (if you opt-in)</li>
         <li><strong>Build community database:</strong> Use scanned ingredient data to help other users find information</li>
     </ul>
@@ -186,7 +201,8 @@
     
     <p><strong>With Service Providers:</strong></p>
     <ul>
-        <li>Firebase/Google (for authentication and cloud storage)</li>
+        <li>Firebase (Google) for authentication, analytics, and cloud storage</li>
+        <li>RevenueCat for subscription and purchase processing</li>
         <li>Barcode lookup services (only barcode numbers, no personal data)</li>
     </ul>
     
@@ -201,79 +217,17 @@
     <ul>
         <li>❌ Sell your personal information</li>
         <li>❌ Share your email with third parties for marketing</li>
-        <li>❌ Use your camera data for anything other than scanning</li>
+        <li>❌ Store payment card details</li>
         <li>❌ Store your photos or videos</li>
     </ul>
-    
-    <h2>Data Storage and Security</h2>
-    <p><strong>Where Your Data is Stored:</strong></p>
-    <ul>
-        <li>Cloud storage: Firebase (Google Cloud, USA)</li>
-        <li>Local storage: On your device (encrypted)</li>
-    </ul>
-    
-    <p><strong>Security Measures:</strong></p>
-    <ul>
-        <li>All data transmitted is encrypted (HTTPS/TLS)</li>
-        <li>Passwords are hashed and never stored in plain text</li>
-        <li>Firebase security rules protect your data</li>
-        <li>Regular security updates</li>
-    </ul>
-    
-    <p><strong>Data Retention:</strong></p>
-    <ul>
-        <li>Account data: Kept until you delete your account</li>
-        <li>Anonymous usage data: Kept for 90 days</li>
-        <li>Product database contributions: Kept indefinitely to help community</li>
-    </ul>
-    
-    <h2>Your Rights and Choices</h2>
-    
-    <h3>You Have the Right to:</h3>
-    <p><strong>Access Your Data:</strong> View all your routines and products in the App</p>
-    <p><strong>Update Your Data:</strong> Edit or update your routines and products anytime</p>
-    <p><strong>Delete Your Data:</strong> Delete your account and all associated data (Go to Account → Delete Account). All your personal data will be permanently deleted within 30 days.</p>
-    <p><strong>Opt-Out:</strong> Decline camera permissions, disable analytics, stop receiving notifications</p>
-    <p><strong>Data Portability:</strong> Request a copy of your data by contacting us</p>
-    
-    <h2>Children's Privacy</h2>
-    <p>SkinSense is not intended for children under 13 years old. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
-    
-    <h2>Camera and Photo Library Permissions</h2>
-    <p><strong>Camera Permission:</strong></p>
-    <ul>
-        <li>Used ONLY for scanning barcodes and ingredient labels</li>
-        <li>Photos/videos are processed locally on your device</li>
-        <li>Nothing is uploaded or stored without your explicit action</li>
-        <li>No background access - camera only works when you actively use it</li>
-    </ul>
-    
-    <h2>Sign in with Apple</h2>
-    <p>If you use Sign in with Apple:</p>
-    <ul>
-        <li>Apple may provide us with your name and email</li>
-        <li>You can choose to hide your email (Apple provides a private relay email)</li>
-        <li>We receive only the information you authorize Apple to share</li>
-        <li>Apple's privacy policy also applies: <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></li>
-    </ul>
-    
-    <h2>International Users</h2>
-    <p>Your information may be transferred to and processed in the United States, where Firebase/Google servers are located. By using the App, you consent to this transfer.</p>
-    <p>If you are in the European Union (EU), we comply with GDPR and you have additional rights as described in "Your Rights and Choices" above.</p>
-    
-    <h2>Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy in the App and updating the "Last Updated" date.</p>
-    <p>Your continued use of the App after changes constitutes acceptance of the updated policy.</p>
     
     <div class="summary-box">
         <h3>Summary (TL;DR)</h3>
         <ul>
-            <li>✅ We collect: Email, routines, products, usage data, camera access</li>
-            <li>✅ We use it for: App functionality, sync, improvements</li>
-            <li>✅ We share: Product data with community, analytics with Firebase</li>
-            <li>✅ We DON'T: Sell your data, store photos, share your email</li>
-            <li>✅ You can: Delete account, export data, opt-out anytime</li>
-            <li>✅ Camera: Only for scanning, nothing stored</li>
+            <li>✅ We use RevenueCat for subscriptions</li>
+            <li>✅ We use Firebase Analytics to understand app usage</li>
+            <li>✅ We DON'T sell your data or store payment details</li>
+            <li>✅ Camera is only used for scanning</li>
         </ul>
     </div>
     
